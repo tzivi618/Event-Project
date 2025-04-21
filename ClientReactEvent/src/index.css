@@ -1,0 +1,118 @@
+body{
+  direction: rtl;
+  text-align: center;
+}
+
+/* רקע עם מעבר צבע */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #ffe6f0, #e6f7ff); /* מעבר צבע ורוד לתכלת */
+  color: #333;
+}
+
+/* כותרות */
+h1, h2, h3 {
+  color: #ff66b2; /* ורוד כהה */
+  text-align: center;
+}
+
+/* קישורים */
+a {
+  color: #3399ff; /* תכלת כהה */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ff66b2; /* ורוד כהה */
+}
+
+/* כפתורים */
+button {
+  background-color: #ff99cc; /* ורוד בינוני */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #ff66b2; /* ורוד כהה */
+  transform: scale(1.05);
+}
+
+/* טפסים */
+form {
+  margin: 20px auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #3399ff; /* תכלת כהה */
+  box-shadow: 0 0 5px #3399ff;
+}
+
+/* רשימות */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+li a {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #e6f7ff; /* תכלת בהיר */
+  color: #3399ff; /* תכלת כהה */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+li a:hover {
+  background-color: #ff99cc; /* ורוד בינוני */
+  color: white;
+}
+
+/* כותרת ראשית */
+header {
+  background-color: #ff99cc; /* ורוד בינוני */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+/* תוכן מרכזי */
+main {
+  padding: 20px;
+}
+
+/* פוטר */
+footer {
+  background-color: #e6f7ff; /* תכלת בהיר */
+  color: #3399ff; /* תכלת כהה */
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

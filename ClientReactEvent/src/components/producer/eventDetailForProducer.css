@@ -1,0 +1,64 @@
+/* עיצוב כללי */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ffe6f0, #e6f7ff); /* מעבר צבע ורוד לתכלת */
+    color: #333;
+}
+
+/* מסגרת הדף */
+.event-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid #ff99cc; /* ורוד בינוני */
+    border-radius: 10px;
+    background-color: #ffffff; /* רקע לבן */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* צל עדין */
+}
+
+/* כותרות */
+h2 {
+    text-align: center;
+    color: #ff66b2; /* ורוד כהה */
+    margin-bottom: 20px;
+}
+
+/* טופס */
+form {
+    margin-top: 20px;
+}
+
+form > * {
+    margin-bottom: 15px; /* רווח בין רכיבי הטופס */
+    display: block;
+    width: 100%;
+}
+
+/* כפתורים */
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #ff99cc; /* ורוד בינוני */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #ff66b2; /* ורוד כהה */
+    transform: scale(1.05);
+}
+
+button.delete-button {
+    background-color: #e8aaaa; /* אדום בהיר */
+}
+
+button.delete-button:hover {
+    background-color: #9b8282; /* אדום כהה */
+}

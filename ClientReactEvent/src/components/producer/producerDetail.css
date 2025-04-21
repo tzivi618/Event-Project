@@ -1,0 +1,83 @@
+/* עיצוב כללי */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ffe6f0, #e6f7ff); /* מעבר צבע ורוד לתכלת */
+    color: #333;
+}
+
+/* מסגרת הדף */
+.producer-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid #ff99cc; /* ורוד בינוני */
+    border-radius: 10px;
+    background-color: #ffffff; /* רקע לבן */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* צל עדין */
+}
+
+/* כותרות */
+h2 {
+    text-align: center;
+    color: #ff66b2; /* ורוד כהה */
+    margin-bottom: 20px;
+}
+
+/* רשימת האירועים */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #3399ff; /* תכלת כהה */
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+li:hover {
+    color: #ff66b2; /* ורוד כהה */
+    text-decoration: underline;
+}
+
+/* כפתור שמירת שינויים */
+button.save-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ff99cc; /* ורוד בינוני */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button.save-button:disabled {
+    display: none; /* הסתרת הכפתור אם אין שינויים */
+}
+
+/* כפתור הוספת אירוע */
+.add-event-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px; /* כפתור קטן יותר */
+    background-color: #ff99cc; /* ורוד בינוני */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; /* גודל טקסט קטן יותר */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-event-button:hover {
+    background-color: #ff66b2; /* ורוד כהה */
+    transform: scale(1.05);
+}

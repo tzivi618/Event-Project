@@ -1,0 +1,78 @@
+/* עיצוב כללי */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ffe6f0, #e6f7ff); /* מעבר צבע ורוד לתכלת */
+    color: #333;
+}
+
+/* מסגרת הטופס */
+.form-container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid #ff99cc; /* ורוד בינוני */
+    border-radius: 10px;
+    background-color: #ffffff; /* רקע לבן */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* צל עדין */
+}
+
+/* כותרת */
+h1 {
+    text-align: center;
+    color: #ff66b2; /* ורוד כהה */
+    margin-bottom: 20px;
+}
+
+/* תוויות */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #3399ff; /* תכלת כהה */
+}
+
+/* שדות קלט */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px; /* רווח בין השדות */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #3399ff; /* תכלת כהה */
+    box-shadow: 0 0 5px #3399ff;
+}
+
+/* כפתור */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff99cc; /* ורוד בינוני */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #ff66b2; /* ורוד כהה */
+    transform: scale(1.05);
+}
+
+/* הודעות שגיאה */
+p {
+    text-align: center;
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+}

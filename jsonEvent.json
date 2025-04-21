@@ -1,0 +1,152 @@
+[
+    {
+        "eventName": "מופע חיות 1",
+        "eventDescription": "מופע חיות מרהיב עם מופעים שונים.",
+        "producerId": "tamar.goldstein@gmail.com"
+    },
+    {
+        "eventName": "סרט דוקומנטרי על טבע",
+        "eventDescription": "סרט דוקומנטרי המוקדש לטבע ולחיים בו.",
+        "producerId": "roni.abraham@gmail.com"
+    },
+    {
+        "eventName": "תכנית   על אוכל",
+        "eventDescription": "תכנית   חדשה עם מתכונים והכנה של מאכלים.",
+        "producerId": "uri.fisher@gmail.com"
+    },
+    {
+        "eventName": "סרט קצר על חברות",
+        "eventDescription": "סרט קצר המוקדש לערכים של חברות ועזרה הדדית.",
+        "producerId": "alon.mizrahi@gmail.com"
+    },
+    {
+        "eventName": "תכנית ריאליטי חדשה",
+        "eventDescription": "תכנית ריאליטי חדשה עם מתמודדים מרגשים.",
+        "producerId": "shani.levy@gmail.com"
+    },
+    {
+        "eventName": "מופע מוסיקה 1",
+        "eventDescription": "מופע מוסיקה עם אמנים שונים.",
+        "producerId": "yosi.cohen@gmail.com"
+    },
+    {
+        "eventName": "סרט דוקומנטרי על אומנות",
+        "eventDescription": "סרט דוקומנטרי המוקדש לאומנות מודרנית.",
+        "producerId": "avigdor.shmueli@gmail.com"
+    },
+    {
+        "eventName": "תכנית ילדים",
+        "eventDescription": "תכנית ילדים עם סיפורים ומשחקים.",
+        "producerId": "maya.atias@gmail.com"
+    },
+    {
+        "eventName": "סרט על חיי העיר",
+        "eventDescription": "סרט המוקדש לחיי העיר והתרבות שלה.",
+        "producerId": "david.israeli@gmail.com"
+    },
+    {
+        "eventName": "מופע קיץ",
+        "eventDescription": "מופע קיץ עם הופעות חיות.",
+        "producerId": "adi.rozen@gmail.com"
+    },
+    {
+        "eventName": "סדנת צילום",
+        "eventDescription": "סדנת צילום למתחילים.",
+        "producerId": "michal.levy@gmail.com"
+    },
+    {
+        "eventName": "תכנית ריאליטי על אוכל",
+        "eventDescription": "תכנית ריאליטי עם מתכונים והכנה.",
+        "producerId": "tom.kaplan@gmail.com"
+    },
+    {
+        "eventName": "מופע סוסים",
+        "eventDescription": "מופע סוסים מרהיב.",
+        "producerId": "sharon.bendavid@gmail.com"
+    },
+    {
+        "eventName": "סדנת ציור",
+        "eventDescription": "סדנת ציור עם אמנים.",
+        "producerId": "galit.rosenberg@gmail.com"
+    },
+    {
+        "eventName": "סרט על טבע",
+        "eventDescription": "סרט המוקדש לטבע ולסביבה.",
+        "producerId": "idan.rafael@gmail.com"
+    },
+    {
+        "eventName": "מופע ליצנות",
+        "eventDescription": "מופע ליצנות לילדים.",
+        "producerId": "uri.mizrahi@gmail.com"
+    },
+    {
+        "eventName": "תכנית ספורט",
+        "eventDescription": "תכנית   המוקדשת לספורט.",
+        "producerId": "roi.dagan@gmail.com"
+    },
+    {
+        "eventName": "סדנת כתיבה",
+        "eventDescription": "סדנת כתיבה יצירתית.",
+        "producerId": "shaked.shimoni@gmail.com"
+    },
+    {
+        "eventName": "מופע קסמים",
+        "eventDescription": "מופע קסמים מרהיב.",
+        "producerId": "michal.levy@gmail.com"
+    },
+    {
+        "eventName": "סרט על חברה",
+        "eventDescription": "סרט המוקדש לערכים חברתיים.",
+        "producerId": "noa.barak@gmail.com"
+    },
+    {
+        "eventName": "תכנית   על טכנולוגיה",
+        "eventDescription": "תכנית   על חידושי טכנולוגיה.",
+        "producerId": "itai.barkovitz@gmail.com"
+    },
+    {
+        "eventName": "מופע דראג",
+        "eventDescription": "מופע דראג עם אמנים שונים.",
+        "producerId": "roni.ohion@gmail.com"
+    },
+    {
+        "eventName": "סדנת בישול",
+        "eventDescription": "סדנת בישול עם שפים מקצועיים.",
+        "producerId": "yosi.cohen@gmail.com"
+    },
+    {
+        "eventName": "תכנית   על היסטוריה",
+        "eventDescription": "תכנית   המוקדשת להיסטוריה.",
+        "producerId": "david.israeli@gmail.com"
+    },
+    {
+        "eventName": "מופע ריקוד",
+        "eventDescription": "מופע ריקוד עם להקות שונות.",
+        "producerId": "roni.abraham@gmail.com"
+    },
+    {
+        "eventName": "סרט על משפחות",
+        "eventDescription": "סרט המוקדש למשפחות שונות.",
+        "producerId": "tamar.goldstein@gmail.com"
+    },
+    {
+        "eventName": "תכנית   על בריאות",
+        "eventDescription": "תכנית   המוקדשת לבריאות ואורח חיים.",
+        "producerId": "michal.levy@gmail.com"
+    },
+    {
+        "eventName": "מופע מופעים",
+        "eventDescription": "מופע עם מגוון מופעים.",
+        "producerId": "shani.levy@gmail.com"
+    },
+    {
+        "eventName": "סדנת אמנות",
+        "eventDescription": "סדנת אמנות עם אמנים מקצועיים.",
+        "producerId": "galit.rosenberg@gmail.com"
+    },
+    {
+        "eventName": "מופע סוסים",
+        "eventDescription": "מופע סוסים מרהיב.",
+        "producerId": "uri.mizrahi@gmail.com"
+    }
+]

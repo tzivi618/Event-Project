@@ -1,0 +1,38 @@
+/* עיצוב כללי לתפריט הראשי */
+div {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffe6f0; /* ורוד בהיר */
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+/* עיצוב לקישורים */
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #3399ff; /* תכלת כהה */
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #e6f7ff; /* תכלת בהיר */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.mainmenu{
+    background-color: #dae3ed;
+}
+a:hover {
+    background-color: #ff99cc; /* ורוד בינוני */
+    color: white;
+}
+
+/* עיצוב לקישורים פעילים */
+a.active {
+    background-color: #ff66b2; /* ורוד כהה */
+    color: white;
+}
+.active {
+    font-weight: bold;
+    color: red;
+}

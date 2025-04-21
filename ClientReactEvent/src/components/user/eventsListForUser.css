@@ -1,0 +1,77 @@
+/* עיצוב כללי */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ffe6f0, #e6f7ff); /* מעבר צבע ורוד לתכלת */
+    color: #333;
+}
+
+/* כותרת */
+h1 {
+    text-align: center;
+    color: #ff66b2; /* ורוד כהה */
+    margin-bottom: 20px;
+}
+
+/* תווית הסינון */
+label {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #3399ff; /* תכלת כהה */
+}
+
+/* שדה הסינון */
+input#filter {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 5px 10px;
+    width: 200px; /* שדה קטן יותר */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input#filter:focus {
+    outline: none;
+    border-color: #3399ff; /* תכלת כהה */
+    box-shadow: 0 0 5px #3399ff;
+}
+
+/* רשימת האירועים */
+ul {
+    list-style-type: none; /* הסרת הנקודות המובנות */
+    padding: 0;
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: right; /* יישור לימין */
+}
+
+li {
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: right; /* יישור לימין */
+    padding-right: 20px; /* מרווח לסימן */
+    position: relative;
+    color: #ff66b2; /* ורוד כהה */
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+/* חץ לפני כל פריט */
+li::before {
+    content: '➤'; /* חץ */
+    position: absolute;
+    left: 0;
+    color: #3399ff; /* תכלת כהה */
+    font-size: 20px;
+}
+
+/* עיצוב במעבר עכבר */
+li:hover {
+    color: #ff99cc; /* ורוד בינוני */
+    text-decoration: underline;
+}
